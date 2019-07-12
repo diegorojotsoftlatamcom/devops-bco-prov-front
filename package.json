@@ -11,7 +11,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "npm run build-prod && cd ./dist/front && ws --port 9999 --spa index.html",
+    "start": "npm run build-prod && cd ./dist/front && ws --port 8080 --spa index.html",
     "dev": "ng serve",
     "build-dev": "ng build",
     "build-prod": "ng build --configuration=production",
