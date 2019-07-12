@@ -1,9 +1,17 @@
 {
   "name": "front",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegorojotsoftlatamcom/devops-bco-prov-front.git"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "npm install && npm run build-prod && cd ./dist/front && ws --port 9999 --spa index.html",
+    "start": "npm run build-prod && cd ./dist/front && ws --port 9999 --spa index.html",
     "dev": "ng serve",
     "build-dev": "ng build",
     "build-prod": "ng build --configuration=production",
