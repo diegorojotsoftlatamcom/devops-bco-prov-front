@@ -5,11 +5,13 @@ echo 'ANTES DE INVOCAR EL ASSEMBLE'
 echo 'EJECUTANDO EN PWD:'$(pwd)
 echo 'SOY USER:'$(whoami)
 
-/usr/libexec/s2i/assemble
-RET=$?
+# /usr/libexec/s2i/assemble
+# RET=$?
 
-echo 'DESPUES DE INVOCAR EL ASSEMBLE'
+# echo 'DESPUES DE INVOCAR EL ASSEMBLE'
 
-echo 'VALOR DE RETORNO:'$RET
+# echo 'VALOR DE RETORNO:'$RET
 
-exit $RET
+# exit $RET
+
+exit 0
